@@ -5,10 +5,13 @@ print('This items are:')  # Notice comma at the end of line
 for item in shop_list:
     print(item)
 
-print('\nI also have to buy rice.', shop_list.append('rice'))
-print('My shopping list is now', shop_list)
+print('\nI also have to buy rice.')
+shop_list.append('rice')
+print('My shopping list is now',)
+shop_list
 
-print('I will sort my list now', shop_list.sort())
+print('I will sort my list now')
+shop_list.sort()
 print('Sorted shopping list is', shop_list)
 
 print('The first item i will buy is', shop_list[0])
