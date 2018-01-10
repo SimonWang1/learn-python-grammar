@@ -1,5 +1,5 @@
 # 使用列表数据类型list，理解成不定长可变类型数组，使用方括号定义逗号分隔
-# This is my shopping list
+# 创建一个购物列表
 shop_list = ['apple', 'mango', 'carrot', 'banana']
 # 逗号消除自带换行符
 print('I have', len(shop_list), 'item to purchase.')

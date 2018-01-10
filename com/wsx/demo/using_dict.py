@@ -1,5 +1,5 @@
 # 字典类似map，创建键值对类型
-# 'ab' is short for 'a'dress'b'ook
+# 'ab' 是英文'Address Book'的缩写
 ab = {
     'Swaroop':'swaroopcn@byteofpython.info',
     'Larry':'lary@wall.org',
@@ -9,10 +9,10 @@ ab = {
 # 通过键名称打印对应值内容
 print("Swaroop's address is %s" % ab['Swaroop'])
 
-# Adding a key/value pair
+# 添加字典元素
 ab['Guido'] = 'guido@python.org'
 
-# Deleting a key/value pair
+# 通过键名删除字典元素
 del ab['Spammer']
 
 # 输出字典长度，通过字典的items方法循环打印键值对元素
