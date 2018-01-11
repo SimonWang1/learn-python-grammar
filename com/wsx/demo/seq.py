@@ -12,7 +12,7 @@ print('Item -2 is', shop_list[-2])
 print('Item 1 to 3 is', shop_list[1:3])
 # 左右单独无内容表示从开头或到结尾
 print('Item 2 to end is', shop_list[2:])
-print('Item 1 to -1 is', shop_list[1:-1])
+print('Item start to -1 is', shop_list[:-1])
 # 无内容表示从头到尾
 print('Item start to end is', shop_list[:])
 

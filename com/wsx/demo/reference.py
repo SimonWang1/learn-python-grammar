@@ -1,6 +1,6 @@
 print('Simple Assignment')
 shop_list = ['apple', 'banana', 'mango', 'grape']
-# my_list和shop_list指向同一个对象只是换了名字
+# my_list和shop_list参考（指向）同一个对象只是换了名字
 my_list = shop_list
 
 del shop_list[0]
