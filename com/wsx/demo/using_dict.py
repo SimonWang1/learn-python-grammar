@@ -1,4 +1,4 @@
-# 字典类似map，创建键值对类型
+# 字典原理为散列表，创建键值对类型，键唯一
 # 'ab' 是英文'Address Book'的缩写
 ab = {
     'Swaroop':'swaroopcn@byteofpython.info',
