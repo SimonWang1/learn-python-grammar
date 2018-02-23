@@ -6,7 +6,7 @@ if guess == number:
     print('but you do not win any prizes!')
     # New block end here
 elif guess < number:
-    print('No, it is litter higher than that')
+    print('No, it is little higher than that')
     # Another block
     # You can do whatever you want in this block...
 else:
